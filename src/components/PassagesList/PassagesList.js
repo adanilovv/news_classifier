@@ -27,7 +27,7 @@ export const PassagesList = ({ text, tag }) => {
     label: "neu",
   }));
 
-  const passages = negPassages.concat(posPassages).concat(neuPassages);
+  const passages = data && negPassages.concat(posPassages).concat(neuPassages);
 
   if (data?.text) {
     return (

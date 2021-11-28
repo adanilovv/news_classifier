@@ -4,6 +4,8 @@ import { NewsClassifierWrapper, Title } from "./NewsClassifier.styles";
 import { useState } from "react";
 
 export const NewsClassifier = () => {
+  console.log("NGROK: ", process.env.REACT_APP_NGROK_URL)
+
   const [text, setText] = useState("");
   const [tag, setTag] = useState("");
 
