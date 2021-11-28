@@ -12,7 +12,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm install
+          yarn install
           npm run-script build
 
       - name: Deploy 🚀
