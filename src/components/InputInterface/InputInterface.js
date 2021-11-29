@@ -11,7 +11,6 @@ export const InputInterface = ({ onHandleSubmitButton }) => {
   const [newsTextAreaInput, setNewsTextAreaInput] = useState(defaultText);
   const [tagBarInput, setTagBarInput] = useState(defaultTag);
 
-  console.log(newsTextAreaInput);
   const handleChangeNewsTextArea = (e) => {
     setNewsTextAreaInput(e.target.value);
   };
