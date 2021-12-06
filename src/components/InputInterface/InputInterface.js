@@ -33,7 +33,7 @@ export const InputInterface = ({ onHandleSubmitButton }) => {
       />
       <TagBar
         type="text"
-        placeholder="Введите тэг..."
+        placeholder="Введите тэг(слово или словосочетание)..."
         value={tagBarInput}
         onChange={handleChangeTagBar}
       />

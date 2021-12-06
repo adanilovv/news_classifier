@@ -31,7 +31,7 @@ export const NewsTextArea = styled.textarea`
 `;
 
 export const TagBar = styled.input`
-  max-width: 80%;
+  width: 70%;
   border: 2px solid #9599e2;
   border-radius: ${borderRadius};
   padding: 3px 10px;

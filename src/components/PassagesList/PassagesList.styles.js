@@ -12,6 +12,8 @@ import {
 
 export const PassagesListWrapper = styled.div``;
 
+export const PassagesItemWrapper = styled.div``;
+
 export const ArticleSummary = styled.div`
   max-width: 500px;
   box-sizing: border-box;
